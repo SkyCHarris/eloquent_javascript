@@ -1,5 +1,7 @@
-let hash = 1
-while (hash <=7) {
+
+// While Loop
+let hash = '#'
+while (hash.length <=7) {
     console.log('#');
-    hash = hash + 1 + '#';
+    hash = hash + '#';
 }
